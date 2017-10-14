@@ -26,6 +26,7 @@
                      @endforeach
                      @endif
                     <form class="form-vertical" role="form" enctype="multipart/form-data" method="post" action="/files">
+                     {{csrf_field()}}
                     @if(session()->has('status'))
                     <div class="alert alert-info" role="alert">
                       {{session()->get('status')}}
@@ -41,7 +42,6 @@
                         <div class="form-group">
                             <button type="submit" class="btn btn-info">Add Files</button>
                         </div>
-                        <input type="hidden" name="_token" value="{{ csrf_token() }}">
                     </form>
                 </div>
             </div>
