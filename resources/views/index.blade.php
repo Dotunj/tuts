@@ -3,8 +3,7 @@
 <head>
     <meta name="viewport" content="width=device-width">
     <title>Laravel and Cloudinary</title>
-    <meta name="description" content="Prego is a project management app built for learning purposes">
-    <meta name="csrf-token" content="{{ csrf_token() }}">
+    <meta name="description" content="Laravel and Cloudinary">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
     </head>
     <body>
